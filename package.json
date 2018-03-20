@@ -1,7 +1,7 @@
 {
-  "name": "rc-tour-guide",
-  "version": "0.1.0",
-  "description": "Tour Guide component for react",
+  "name": "rc-tour-guide-fork",
+  "version": "0.2.1",
+  "description": "React 16 for of Tour Guide component for react",
   "keywords": [
     "react",
     "react-component",
@@ -16,10 +16,10 @@
   "engines": {
     "node": ">=4.0.0"
   },
-  "homepage": "https://github.com/xuqingkuang/rc-tour-guide",
-  "author": "x@kxq.io",
-  "repository": "xuqingkuang/rc-tour-guide",
-  "bugs": "https://github.com/xuqingkuang/rc-tour-guide/issues",
+  "homepage": "https://github.com/dennisrjohn/rc-tour-guide",
+  "author": "dennis@picaboo.com",
+  "repository": "dennisrjohn/rc-tour-guide",
+  "bugs": "https://github.com/dennisrjohn/rc-tour-guide/issues",
   "files": [
     "lib",
     "assets/*.css"
@@ -43,7 +43,8 @@
   },
   "dependencies": {
     "jquery": "^3.0.0",
-    "object-assign": "^4.1.0"
+    "object-assign": "^4.1.0",
+    "prop-types": "^15.6.1"
   },
   "devDependencies": {
     "expect.js": "0.3.x",
