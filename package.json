@@ -49,8 +49,7 @@
     "expect.js": "0.3.x",
     "pre-commit": "1.x",
     "rc-tools": "^5.5.9",
-    "react": "^15.1.0",
-    "react-addons-test-utils": "^15.1.0",
-    "react-dom": "^15.1.0"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }
