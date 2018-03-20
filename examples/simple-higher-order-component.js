@@ -1,15 +1,15 @@
 webpackJsonp([6],{
 
 /***/ 0:
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(183);
+	module.exports = __webpack_require__(42);
 
 
-/***/ },
+/***/ }),
 
-/***/ 183:
-/***/ function(module, exports, __webpack_require__) {
+/***/ 42:
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -17,11 +17,11 @@ webpackJsonp([6],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactDom = __webpack_require__(39);
+	var _reactDom = __webpack_require__(13);
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
-	var _rcTourGuide = __webpack_require__(169);
+	var _rcTourGuide = __webpack_require__(28);
 	
 	var _rcTourGuide2 = _interopRequireDefault(_rcTourGuide);
 	
@@ -35,8 +35,8 @@ webpackJsonp([6],{
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : _defaults(subClass, superClass); } // use jsx to render html, do not modify simple.html
 	
-	__webpack_require__(176);
-	__webpack_require__(177);
+	__webpack_require__(35);
+	__webpack_require__(36);
 	
 	var tour = {
 	  startIndex: 0,
@@ -159,7 +159,7 @@ webpackJsonp([6],{
 	
 	_reactDom2.default.render(_react2.default.createElement(TourGuide, null), document.getElementById('__react-content'));
 
-/***/ }
+/***/ })
 
 });
 //# sourceMappingURL=simple-higher-order-component.js.map

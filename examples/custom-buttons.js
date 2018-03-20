@@ -1,13 +1,13 @@
 webpackJsonp([0],[
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__(1);
 
 
-/***/ },
+/***/ }),
 /* 1 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -15,17 +15,17 @@ webpackJsonp([0],[
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactDom = __webpack_require__(39);
+	var _reactDom = __webpack_require__(13);
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
-	var _rcTourGuide = __webpack_require__(169);
+	var _rcTourGuide = __webpack_require__(28);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	__webpack_require__(176); // use jsx to render html, do not modify simple.html
+	__webpack_require__(35); // use jsx to render html, do not modify simple.html
 	
-	__webpack_require__(177);
+	__webpack_require__(36);
 	
 	var tour = {
 	  startIndex: 0,
@@ -89,7 +89,7 @@ webpackJsonp([0],[
 	        { className: 'hello' },
 	        'Hello'
 	      ),
-	      ' ',
+	      '\xA0',
 	      _react2.default.createElement(
 	        'span',
 	        { className: 'world' },
@@ -101,6 +101,6 @@ webpackJsonp([0],[
 	
 	_reactDom2.default.render(_react2.default.createElement(TourGuide, null), document.getElementById('__react-content'));
 
-/***/ }
+/***/ })
 ]);
 //# sourceMappingURL=custom-buttons.js.map

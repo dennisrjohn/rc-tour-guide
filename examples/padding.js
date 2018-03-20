@@ -1,15 +1,15 @@
 webpackJsonp([2],{
 
 /***/ 0:
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(179);
+	module.exports = __webpack_require__(38);
 
 
-/***/ },
+/***/ }),
 
-/***/ 179:
-/***/ function(module, exports, __webpack_require__) {
+/***/ 38:
+/***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
@@ -17,17 +17,17 @@ webpackJsonp([2],{
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactDom = __webpack_require__(39);
+	var _reactDom = __webpack_require__(13);
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
-	var _rcTourGuide = __webpack_require__(169);
+	var _rcTourGuide = __webpack_require__(28);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	__webpack_require__(176); // use jsx to render html, do not modify simple.html
+	__webpack_require__(35); // use jsx to render html, do not modify simple.html
 	
-	__webpack_require__(177);
+	__webpack_require__(36);
 	
 	var tour = {
 	  placement: 'bottom-right',
@@ -153,7 +153,7 @@ webpackJsonp([2],{
 	
 	_reactDom2.default.render(_react2.default.createElement(TourGuide, null), document.getElementById('__react-content'));
 
-/***/ }
+/***/ })
 
 });
 //# sourceMappingURL=padding.js.map

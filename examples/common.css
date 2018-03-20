@@ -4,12 +4,10 @@
   right: 0;
   bottom: 0;
   left: 0;
-  -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   z-index: 999996;
   background-color: black;
   opacity: .8;
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.9) 100%);
   background: radial-gradient(center, ellipse cover, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.9) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66000000', endColorstr='#e6000000', GradientType=1);
   filter: "alpha(opacity=50)";
@@ -27,7 +25,6 @@
   border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 4px;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.4);
-  -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   z-index: 999997;
   background-color: white;
