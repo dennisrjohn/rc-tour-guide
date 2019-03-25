@@ -134,7 +134,7 @@ export default (options, done, cancel) => {
     },
 
     calculatePosition: function () {
-      if (!this.state.show) {
+      if (!this.state || !this.state.show) {
         return
       }
       const step = this.options.steps[this.state.currentIndex];
